@@ -1,0 +1,8 @@
+Machine Code, opcode, func, Inst, Format, rs, rt, rd, shamt, Imm
+0x24020004, 0x09, ----, addiu, I, 0, 2, -, -, 0x0004 
+0x3c011001, 0x0f, ----, lui, I, 0, 1, -, -, 0x1001 
+0x34240000, 0x0d, ----, ori, I, 1, 4, -, -, 0x0000 
+0x0040a020, 0x00, 0x20, add, R, 2, 0, 20, 0, - 
+0x00408820, 0x00, 0x20, add, R, 2, 0, 17, 0, - 
+
+Opcode sum: 37
